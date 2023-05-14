@@ -1,10 +1,16 @@
-import TrioImg from "../../../assets/HomePage/Trio.png";
+import HeroBannerImg from "../../../assets/HomePage/HeroBanner.png";
 import Button from "../../ui/Button";
 import BlueLink from "../../ui/BlueLink";
+import SectionWrapper from "../../ui/SectionWrapper";
 
 function HeroBanner() {
   return (
-    <section className="text-center before:block before:absolute before:-inset-1 before:bg-gradient-to-b before:from-highlight-eggshell before:to-white before:h-full before:-z-1 relative">
+    <SectionWrapper
+      id="about"
+      topMargin={false}
+      sectionClassName="text-center before:block before:absolute before:-inset-1 before:bg-gradient-to-b before:from-highlight-eggshell before:to-white before:h-full before:-z-1 relative"
+    >
+      {/* Text */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
         <div className="pt-16 md:pt-4 ">
@@ -23,26 +29,28 @@ function HeroBanner() {
                 size="large"
                 primaryText="Join our waiting list"
                 secondaryText="Get a peek into the behind the scenes."
+                addClassName="justify-center"
                 link="https://ix0dy8pqosu.typeform.com/to/XZLHJIV8"
               />
             </div>
           </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <img
-          className="mx-auto drop-shadow-3xl mb-10 rounded-lg"
-          src={TrioImg}
-          alt="Logo"
-        />
-      </div>
 
+      {/* Image */}
+      <img
+        className="mx-auto drop-shadow-3xl mb-10 rounded-lg"
+        src={HeroBannerImg}
+        alt="Logo"
+      />
+
+      {/* Link */}
       <BlueLink
-        link="#skills"
-        primaryText="See everything we can do in the skills gallery"
+        link="#features"
+        primaryText="See everything we have to offer and more"
         size="large"
       />
-    </section>
+    </SectionWrapper>
   );
 }
 

@@ -5,10 +5,12 @@ const Banner = () => {
     <Fragment>
       <div className="bg-black p-3 text-center">
         <p className="text-white font-light text-sm">
-          Every Harvey needs and deserves a{" "}
+          Be part of an
           <span className="font-bold">
-            Donna (aka. the 3 guys you see below).
+            {" "}
+            exclusive community of tabletop gamers{" "}
           </span>
+          today.
         </p>
       </div>
     </Fragment>

@@ -12,8 +12,13 @@ module.exports = {
         highlight: {
           eggshell: "#fcf4f2",
           darkEggshell: "#f2eae8",
+          darkerEggshell: "#FEF7F0",
+          darkestEggshell: "#F4EDE6",
           lightYellow: "#ffffe1",
           yellow: "#FFE42D",
+          orange: "#ff7d0f",
+          pink: "#ff5c7a",
+          blue: "#1E64E6",
         },
         gray: {
           100: "#FBFBFB",

@@ -56,7 +56,7 @@ body {
     @apply leading-none;
   }
 
-  h3 {
+  h2 {
     @apply text-3xl;
     @apply font-black;
     @apply text-text-main;
@@ -65,7 +65,7 @@ body {
 
   h4 {
     @apply text-lg;
-    @apply font-black;
+    @apply font-semibold;
     @apply text-text-main;
   }
 

@@ -6,6 +6,9 @@ const BlueLink = (props) => {
       case "small":
         return "";
 
+      case "medium":
+        return "text-xl";
+
       case "large":
         return "text-2xl";
 
@@ -17,8 +20,8 @@ const BlueLink = (props) => {
   return (
     <a
       href={props.link}
-      className={`font-bold text-link-main hover:text-link-hover underline ${
-        props.className
+      className={`inline-block cursor-pointer font-semibold text-link-main hover:text-link-hover underline ${
+        props.addClassName
       } ${renderSwitch(props.size)}`}
     >
       {props.primaryText}
