@@ -15,7 +15,7 @@ const Progress = () => {
       link: "https://seantanyurong.com/",
     },
     {
-      primaryText: "Build Donna, a Super Virtual Assistant Agency",
+      primaryText: "Build Donna, a Super Virtual Assistant",
       link: "https://www.meetyourdonna.com/",
     },
   ];
@@ -34,7 +34,7 @@ const Progress = () => {
       link: "https://www.instagram.com/orionsky_hobbies/",
     },
     {
-      primaryText: "Get Magic the Gathering Judge Certification",
+      primaryText: "Get L1 Judge Certification",
       link: "https://seantanyurong.com/",
     },
     {
@@ -100,7 +100,7 @@ const Progress = () => {
       <div className="mt-14 grid grid-cols-8 gap-y-16 w-full">
         <div className="col-span-8 lg:col-span-3 self-center">
           <SplitContainer
-            addClassName="border-r-0 rounded-r-none"
+            addClassName="lg:border-r-0 lg:rounded-r-none"
             topContent={
               <>
                 <h4 className="text-2xl">Nomad</h4>

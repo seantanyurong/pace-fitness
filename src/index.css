@@ -3,13 +3,22 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
   scroll-behavior: smooth;
+  letter-spacing: 0.02rem;
+}
+
+/* html {
 }
 
 body {
-  letter-spacing: 0.02rem;
-}
+} */
 
 @font-face {
   font-family: "GRAPHIK";

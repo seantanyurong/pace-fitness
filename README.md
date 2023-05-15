@@ -24,7 +24,7 @@
     <br />
     <a href="https://the100club.netlify.app/">View Demo</a>
     ·
-    <a href="https://t.me/JoinThe100Club">Join Waiting List</a>
+    <a href="https://t.me/JoinThe100Club">Join Discord</a>
   </p>
 </div>
 

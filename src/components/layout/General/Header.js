@@ -16,7 +16,7 @@ function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center relative">
             <img className="mx-auto h-9" src={LogoImg} alt="Logo" />
-            <div className="w-[20.5rem] origin-bottom -rotate-2 absolute bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center -left-[50%] mx-auto sm:-left-[20px] -bottom-[45px]">
+            <div className="whitespace-nowrap -rotate-2 absolute bg-gradient-to-r from-highlight-orange to-highlight-sunlight py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center -left-[50%] mx-auto sm:-left-[20px] -bottom-[45px]">
               {[...Array(5)].map((x, i) => (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -44,14 +44,14 @@ function Header() {
               <BlueLink
                 addClassName="px-5"
                 link="#features"
-                primaryText="Browse the features gallery"
+                primaryText="Browse the features"
                 size="small"
               />
             </li>
             <li>
               <Button
                 size="small"
-                primaryText="Join our waiting list"
+                primaryText="Join our Discord"
                 link="https://discord.gg/8UDaJrfJBs"
               />
             </li>

@@ -16,6 +16,7 @@ module.exports = {
           darkestEggshell: "#F4EDE6",
           lightYellow: "#ffffe1",
           yellow: "#FFE42D",
+          sunlight: "#ffcd05",
           orange: "#ff7d0f",
           pink: "#ff5c7a",
           blue: "#1E64E6",

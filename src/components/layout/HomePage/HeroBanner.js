@@ -27,8 +27,8 @@ function HeroBanner() {
               </p>
               <Button
                 size="large"
-                primaryText="Join our waiting list"
-                secondaryText="Get a peek into the behind the scenes."
+                primaryText="Join our Discord"
+                secondaryText="Get a peek behind the scenes of this project."
                 addClassName="justify-center mx-auto"
                 link="https://discord.gg/8UDaJrfJBs"
               />

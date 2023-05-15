@@ -18,7 +18,7 @@ const CTA = () => {
         </p>
         <Button
           size="large"
-          primaryText="Join our waiting list"
+          primaryText="Join our Discord"
           secondaryText="Get a peek behind the scenes."
           addClassName="justify-center mx-auto"
           link="https://discord.gg/8UDaJrfJBs"
