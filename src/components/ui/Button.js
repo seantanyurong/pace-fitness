@@ -5,14 +5,14 @@ const Button = (props) => {
     switch (param) {
       case "small":
         return (
-          <div className=" bg-primary-main hover:bg-primary-hover font-semibold py-3 px-2 md:px-6 rounded-full items-center">
+          <div className=" bg-primary-main hover:bg-primary-hover font-semibold py-3 px-4 rounded-full items-center">
             <h3 className="text-base text-white">{props.primaryText}</h3>
           </div>
         );
 
       case "large":
         return (
-          <div className=" bg-primary-main hover:bg-primary-hover py-4 px-2 md:px-10 rounded-full items-center">
+          <div className=" bg-primary-main hover:bg-primary-hover py-4 px-8 md:px-10 rounded-full items-center">
             <h3 className="text-xl md:text-2xl font-semibold text-white ">
               {props.primaryText}
             </h3>
@@ -28,9 +28,7 @@ const Button = (props) => {
   };
 
   return (
-    <div
-      className={`mx-auto max-w-xs sm:max-w-none sm:flex ${props.addClassName}`}
-    >
+    <div className={`max-w-none flex ${props.addClassName}`}>
       <a href={props.link} target="_blank" rel="noreferrer">
         {renderSwitch(props.size)}
       </a>

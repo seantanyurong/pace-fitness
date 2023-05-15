@@ -6,6 +6,7 @@ const ProgressBar = (props) => {
       <div
         class={`bg-highlight-orange text-xs font-semibold text-white text-center p-1.5 my-1.5 leading-none rounded-full ${props.addClassName}`}
         style={{ width: `${props.percentage}` }}
+        // style={{ width: `30%` }}
       >
         {props.content}
       </div>

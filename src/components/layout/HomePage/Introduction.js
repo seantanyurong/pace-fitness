@@ -15,11 +15,11 @@ function Introduction() {
     },
     {
       primaryText: "Magic playgroup finder.",
-      link: "#progress",
+      link: "#",
     },
     {
       primaryText: "Drop me an email.",
-      link: "#progress",
+      link: "mailto:seantanyurong@gmail.com",
     },
   ];
 
@@ -41,51 +41,66 @@ function Introduction() {
     <SectionWrapper
       id="about"
       topMargin={true}
-      divClassName="grid grid-cols-7 gap-y-16 sm:gap-16 w-full"
+      // divClassName="grid grid-cols-7 gap-y-16 sm:gap-16 w-full"
     >
-      {/* Left column - introduction */}
-      <div className="col-span-7 lg:col-span-5">
-        <h2 className="mb-3">It's a co-working + tabletop gaming space.</h2>
-        <p className="mb-3">
-          Hey, my name is Sean, and this is my dream. As a 23 year old student
-          and full stack developer from Singapore, I’ve always wondered if
-          there’s more to life than working a 9-5 until you’re 65, only to
-          retire and live out the rest of your days as an old man sleeping on a
-          bed of cash.
-        </p>
-        <p className="mb-3">
-          Dungeon House, is my exploration to determine if we can find more
-          meaning, purpose, and happiness, not only at the end of life, but
-          throughout life, by combining work and hobby. This formula of building
-          a <b>coexisting hobby community + coworking space</b> is an experiment
-          that we’ll foray into together.
-        </p>
+      <div className="grid grid-cols-7 gap-y-16 sm:gap-16 w-full">
+        {/* Left column - introduction */}
+        <div className="col-span-7 lg:col-span-5">
+          <h2 className="mb-3">It's a co-working + tabletop gaming space.</h2>
+          <p className="mb-3 text-lg">
+            <i>Written by ChatGPT.</i> Hey, my name is Sean, and I want to share
+            my retirement dream with you. As a 23-year-old student and full
+            stack developer from Singapore, I've always pondered whether there's
+            more to life than the mundane 9-5 grind that often leads to a
+            monotonous retirement. I refuse to believe that our existence should
+            be reduced to being old folks sleeping on a pile of money.
+          </p>
+          <p className="mb-3 text-lg">
+            That's where Dungeon House comes in—a thrilling exploration of the
+            possibilities that lie beyond conventional work and hobbies. I am on
+            a quest to discover if we can uncover greater meaning, purpose, and
+            happiness not only in the twilight years but throughout our entire
+            lives by merging our passions with our professional endeavors.{" "}
+            <b>
+              This unique blend of a harmonious hobby community and a
+              cutting-edge co-working space is an experiment that we will embark
+              upon together.
+            </b>
+          </p>
 
-        <p className="mb-3">
-          I’ll be documenting my journey as I work towards making this dream a
-          reality, and hopefully paving the blueprint for others to go out and
-          build their own hobby coworking spaces around the world.
-        </p>
+          <p className="mb-3 text-lg">
+            Throughout this exhilarating journey, I'll be meticulously
+            documenting my progress as I strive to transform this dream into a
+            tangible reality. My aim is not only to manifest Dungeon House but
+            also to lay the groundwork for others to venture out and establish
+            their own extraordinary hobby-centric co-working spaces worldwide.
+          </p>
 
-        <p className="mb-3">
-          If this is is a journey you’d like to be a part of, I invite you to
-          join me as we work towards making this a reality.
-        </p>
+          <p className="mb-3 text-lg">
+            If you feel a stirring in your soul and a desire to be part of this
+            transformative adventure, I wholeheartedly invite you to join me.
+            <b>
+              Together, let's chart a path towards making this grand vision a
+              concrete and thriving sanctuary for geeks, remote workers, and
+              passionate individuals seeking a life that intertwines work, play,
+              and boundless fulfillment.
+            </b>
+          </p>
+        </div>
+
+        {/* Right column - submenu */}
+        <div className="col-span-6 lg:col-span-2">
+          <YellowContainer
+            content={
+              <div>
+                <h4 className="mb-2">Things to check out</h4>
+                {submenuLinkContent()}
+              </div>
+            }
+          />
+        </div>
       </div>
-
-      {/* Right column - submenu */}
-      <div className="col-span-6 lg:col-span-2">
-        <YellowContainer
-          content={
-            <div>
-              <h4 className="mb-2">Things to check out</h4>
-              {submenuLinkContent()}
-            </div>
-          }
-        />
-      </div>
-
-      <Divider />
+      <Divider addClassName="mt-16" />
     </SectionWrapper>
   );
 }

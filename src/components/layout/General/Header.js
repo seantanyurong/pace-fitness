@@ -52,7 +52,7 @@ function Header() {
               <Button
                 size="small"
                 primaryText="Join our waiting list"
-                link="https://ix0dy8pqosu.typeform.com/to/XZLHJIV8"
+                link="https://discord.gg/8UDaJrfJBs"
               />
             </li>
           </ul>

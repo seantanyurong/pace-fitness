@@ -29,8 +29,8 @@ function HeroBanner() {
                 size="large"
                 primaryText="Join our waiting list"
                 secondaryText="Get a peek into the behind the scenes."
-                addClassName="justify-center"
-                link="https://ix0dy8pqosu.typeform.com/to/XZLHJIV8"
+                addClassName="justify-center mx-auto"
+                link="https://discord.gg/8UDaJrfJBs"
               />
             </div>
           </div>
