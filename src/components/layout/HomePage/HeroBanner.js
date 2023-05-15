@@ -8,7 +8,7 @@ function HeroBanner() {
     <SectionWrapper
       id="about"
       topMargin={false}
-      sectionClassName="text-center before:block before:absolute before:-inset-1 before:bg-gradient-to-b before:from-highlight-eggshell before:to-white before:h-full before:-z-1 relative"
+      sectionClassName="-z-1 text-center before:block before:absolute before:-inset-1 before:bg-gradient-to-b before:from-highlight-eggshell before:to-white before:h-full before:-z-1 relative"
     >
       {/* Text */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

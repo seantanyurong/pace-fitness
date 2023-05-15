@@ -8,7 +8,7 @@ function Header() {
   return (
     <SectionWrapper
       topMargin={false}
-      sectionClassName="z-30 md:bg-opacity-90 transition duration-300 ease-in-out pt-8 pb-12 bg-highlight-eggshell"
+      sectionClassName="z-99 md:bg-opacity-90 transition duration-300 ease-in-out pt-8 pb-12 bg-highlight-eggshell"
     >
       <div className="flex-col sm:flex-row flex items-center justify-between h-16 md:h-20 relative">
         {/* Site branding */}

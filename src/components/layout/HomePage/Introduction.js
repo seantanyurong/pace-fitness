@@ -47,7 +47,7 @@ function Introduction() {
         {/* Left column - introduction */}
         <div className="col-span-7 lg:col-span-5">
           <h2 className="mb-3">
-            Co-working in the day, Tabletop gaming in the night.
+            Co-working in the day, tabletop gaming in the night.
           </h2>
           <p className="mb-3 text-lg">
             <i>Written by ChatGPT.</i> Hey, my name is Sean, and I want to share
