@@ -17,7 +17,8 @@ function HeroBanner() {
           {/* Section header */}
           <div className=" pb-12 md:pb-16">
             <h1 className="mb-4">
-              A private co-working space for remote geeks.
+              A private <br className="sm:hidden"></br>co-working space for
+              remote geeks.
             </h1>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl mb-8">

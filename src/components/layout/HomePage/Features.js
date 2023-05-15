@@ -29,7 +29,7 @@ const Features = () => {
 
   return (
     <SectionWrapper topMargin={true} id="features">
-      <h2>A private community that combines work and play.</h2>
+      <h2>A community that combines work and play.</h2>
       <div className="mt-8 grid grid-cols-9 gap-y-16 sm:gap-16 w-full">
         {FeatureContent.map((feature, index) => {
           return (

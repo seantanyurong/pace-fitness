@@ -5,7 +5,7 @@ const Button = (props) => {
     switch (param) {
       case "small":
         return (
-          <div className=" bg-primary-main hover:bg-primary-hover font-semibold py-3 px-4 rounded-full items-center">
+          <div className=" bg-primary-main hover:bg-primary-hover font-semibold py-3 px-3 rounded-full items-center">
             <h3 className="text-base text-white">{props.primaryText}</h3>
           </div>
         );

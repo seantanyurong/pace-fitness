@@ -46,7 +46,9 @@ function Introduction() {
       <div className="grid grid-cols-7 gap-y-16 sm:gap-16 w-full">
         {/* Left column - introduction */}
         <div className="col-span-7 lg:col-span-5">
-          <h2 className="mb-3">It's a co-working + tabletop gaming space.</h2>
+          <h2 className="mb-3">
+            Co-working in the day, Tabletop gaming in the night.
+          </h2>
           <p className="mb-3 text-lg">
             <i>Written by ChatGPT.</i> Hey, my name is Sean, and I want to share
             my retirement dream with you. As a 23-year-old student and full

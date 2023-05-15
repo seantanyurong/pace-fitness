@@ -3,6 +3,7 @@ import SectionWrapper from "../../ui/SectionWrapper";
 import ProgressBar from "../../ui/ProgressBar";
 import SplitContainer from "../../ui/SplitContainer";
 import Button from "../../ui/Button";
+import InlineCallout from "../../ui/InlineCallout";
 
 const Progress = () => {
   const nomadLinks = [
@@ -132,7 +133,10 @@ const Progress = () => {
           <SplitContainer
             topContent={
               <>
-                <h4 className="text-2xl">Geek</h4>
+                <div className="flex items-center space-x-2.5">
+                  <h4 className="text-2xl">Geek</h4>
+                  <InlineCallout content="IN PROGRESS" />
+                </div>
                 <p className="text-xl mt-2 font-light">
                   Become a well-read and skillful player, who has judge-level
                   rules knowledge in Magic, Warhammer, etc.

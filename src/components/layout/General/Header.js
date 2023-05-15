@@ -42,7 +42,7 @@ function Header() {
           <ul className="flex grow justify-end flex-wrap items-center">
             <li>
               <BlueLink
-                addClassName="px-5"
+                addClassName="px-3"
                 link="#features"
                 primaryText="Browse the features"
                 size="small"
