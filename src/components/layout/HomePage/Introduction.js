@@ -50,42 +50,38 @@ function Introduction() {
             Co-working in the day, tabletop gaming in the night.
           </h2>
           <p className="mb-3 text-lg">
-            <i>Written by ChatGPT.</i> Hey, my name is Sean, and I want to share
-            my retirement dream with you. As a 23-year-old student and full
-            stack developer from Singapore, I've always pondered whether there's
-            more to life than the mundane 9-5 grind that often leads to a
-            monotonous retirement. I refuse to believe that our existence should
-            be reduced to being old folks sleeping on a pile of money.
+            <i>Written by ChatGPT</i> - Hey, my name is Sean, and this is my
+            retirement dream. As a 23-year-old student and full stack developer
+            from Singapore, I've always pondered whether there's more to life
+            than the mundane 9-5 grind that often leads to a dull retirement. I
+            refuse to believe that our existence should be reduced to being old
+            folks sleeping on a pile of money.
           </p>
           <p className="mb-3 text-lg">
-            That's where Dungeon House comes in—a thrilling exploration of the
-            possibilities that lie beyond conventional work and hobbies. I am on
-            a quest to discover if we can uncover greater meaning, purpose, and
-            happiness not only in the twilight years but throughout our entire
-            lives by merging our passions with our professional endeavors.{" "}
+            That's where Dungeon House comes in — an exploration of the
+            possibilities that lie beyond conventional work and hobbies. I'm on
+            a quest to discover if we can find greater meaning, purpose, and
+            happiness throughout our lives by blending our passions with our
+            work.{" "}
             <b>
-              This unique blend of a harmonious hobby community and a
-              cutting-edge co-working space is an experiment that we will embark
-              upon together.
+              Dungeon House is a unique experiment, combining a vibrant hobby
+              community with a modern co-working space.
             </b>
           </p>
-
           <p className="mb-3 text-lg">
-            Throughout this exhilarating journey, I'll be meticulously
-            documenting my progress as I strive to transform this dream into a
-            tangible reality. My aim is not only to manifest Dungeon House but
-            also to lay the groundwork for others to venture out and establish
-            their own extraordinary hobby-centric co-working spaces worldwide.
+            As I embark on this exciting journey, I'll be sharing every step
+            along the way. My goal is not only to bring Dungeon House to life
+            but also to inspire others to create their own incredible
+            hobby-centric co-working spaces worldwide.
           </p>
 
           <p className="mb-3 text-lg">
             If you feel a stirring in your soul and a desire to be part of this
             transformative adventure, I wholeheartedly invite you to join me.
             <b>
-              Together, let's chart a path towards making this grand vision a
-              concrete and thriving sanctuary for geeks, remote workers, and
-              passionate individuals seeking a life that intertwines work, play,
-              and boundless fulfillment.
+              Together, let's create a concrete sanctuary where geeks, remote
+              workers, and passionate individuals can thrive, enjoying a
+              fulfilling life that seamlessly combines work and play.
             </b>
           </p>
         </div>
