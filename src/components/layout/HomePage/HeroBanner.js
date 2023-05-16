@@ -1,4 +1,4 @@
-import HeroBannerImg from "../../../assets/HomePage/HeroBanner.png";
+import HeroBannerImg from "../../../assets/HomePage/HeroBanner.webp";
 import Button from "../../ui/Button";
 import BlueLink from "../../ui/BlueLink";
 import SectionWrapper from "../../ui/SectionWrapper";

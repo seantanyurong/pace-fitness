@@ -1,9 +1,9 @@
 import React from "react";
 import SectionWrapper from "../../ui/SectionWrapper";
 import Feature from "../../ui/Feature";
-import Feature1Img from "../../../assets/HomePage/Feature1.png";
-import Feature2Img from "../../../assets/HomePage/Feature2.png";
-import Feature3Img from "../../../assets/HomePage/Feature3.png";
+import Feature1Img from "../../../assets/HomePage/Feature1.webp";
+import Feature2Img from "../../../assets/HomePage/Feature2.webp";
+import Feature3Img from "../../../assets/HomePage/Feature3.webp";
 
 const Features = () => {
   const FeatureContent = [
