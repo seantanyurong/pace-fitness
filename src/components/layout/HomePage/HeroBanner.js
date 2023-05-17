@@ -49,17 +49,12 @@ function HeroBanner() {
       </div>
 
       {/* Image */}
-      {/* <img
-        className="mx-auto drop-shadow-3xl mb-10 rounded-lg"
-        src={HeroBannerImg}
-        alt="Logo"
-      /> */}
-      <AdvancedImage
+      {/* <AdvancedImage
         className="mx-auto drop-shadow-3xl mb-10 rounded-lg"
         cldImg={myImage}
         plugins={[responsive({ steps: 200 }), placeholder({ mode: "blur" })]}
         alt="heroBanner"
-      />
+      /> */}
 
       {/* Link */}
       <BlueLink
