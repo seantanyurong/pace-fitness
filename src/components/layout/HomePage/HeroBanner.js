@@ -58,6 +58,7 @@ function HeroBanner() {
         className="mx-auto drop-shadow-3xl mb-10 rounded-lg"
         cldImg={myImage}
         plugins={[responsive({ steps: 200 }), placeholder({ mode: "blur" })]}
+        alt="heroBanner"
       />
 
       {/* Link */}

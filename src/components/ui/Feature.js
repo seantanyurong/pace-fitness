@@ -24,6 +24,7 @@ const Feature = (props) => {
           className="mx-auto drop-shadow-xl rounded-lg group-hover:-translate-y-1 duration-150 border-highlight-darkEggshell border-3 group-hover:border-solid  group-hover:border-highlight-blue"
           cldImg={myImage}
           plugins={[responsive({ steps: 200 }), placeholder({ mode: "blur" })]}
+          alt={props.primaryText}
         />
         <BlueLink
           size="medium"
