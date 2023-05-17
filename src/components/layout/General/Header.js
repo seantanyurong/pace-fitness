@@ -18,14 +18,13 @@ function Header() {
   return (
     <SectionWrapper
       topMargin={false}
-      sectionClassName="z-99 md:bg-opacity-90 transition duration-300 ease-in-out pt-8 pb-12 bg-highlight-eggshell"
+      sectionClassName="md:bg-opacity-90 transition duration-300 ease-in-out pt-8 pb-12 bg-highlight-eggshell"
     >
-      <div className="flex-col sm:flex-row flex items-center justify-between h-16 md:h-20 relative">
+      <div className="z-99 flex-col sm:flex-row flex items-center justify-between md:h-20 relative">
         {/* Site branding */}
         <div className="shrink-0 mr-4 ">
           {/* Logo */}
           <Link to="/" className="flex items-center relative">
-            {/* <img className="mx-auto h-9" src={LogoImg} alt="Logo" /> */}
             <AdvancedImage
               className="mx-auto h-9"
               cldImg={myImage}
@@ -57,7 +56,7 @@ function Header() {
         </div>
 
         {/* Desktop navigation */}
-        <nav className="flex grow mt-16 sm:mt-0">
+        <nav className="z-99 flex grow pt-16 sm:pt-0">
           <ul className="flex grow justify-end flex-wrap items-center">
             <li>
               <BlueLink
