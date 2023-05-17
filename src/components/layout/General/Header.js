@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import LogoImg from "../../../assets/General/Logo.png";
+// import LogoImg from "../../../assets/General/Logo.png";
 import Button from "../../ui/Button";
 import BlueLink from "../../ui/BlueLink";
 import SectionWrapper from "../../ui/SectionWrapper";
