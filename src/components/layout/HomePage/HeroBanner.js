@@ -1,18 +1,18 @@
 import Button from "../../ui/Button";
 import BlueLink from "../../ui/BlueLink";
 import SectionWrapper from "../../ui/SectionWrapper";
-import { Cloudinary } from "@cloudinary/url-gen";
-import { AdvancedImage, responsive, placeholder } from "@cloudinary/react";
+// import { Cloudinary } from "@cloudinary/url-gen";
+// import { AdvancedImage, responsive, placeholder } from "@cloudinary/react";
 
 function HeroBanner() {
   // Create a Cloudinary instance and set your cloud name.
-  const cld = new Cloudinary({
-    cloud: {
-      cloudName: "dfhxocdgi",
-    },
-  });
+  // const cld = new Cloudinary({
+  //   cloud: {
+  //     cloudName: "dfhxocdgi",
+  //   },
+  // });
 
-  const myImage = cld.image("dungeon-house/heroBanner");
+  // const myImage = cld.image("dungeon-house/heroBanner");
 
   return (
     <SectionWrapper
