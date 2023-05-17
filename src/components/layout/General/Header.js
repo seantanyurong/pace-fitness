@@ -4,12 +4,7 @@ import Button from "../../ui/Button";
 import BlueLink from "../../ui/BlueLink";
 import SectionWrapper from "../../ui/SectionWrapper";
 import { Cloudinary } from "@cloudinary/url-gen";
-import {
-  AdvancedImage,
-  lazyload,
-  responsive,
-  placeholder,
-} from "@cloudinary/react";
+import { AdvancedImage, responsive, placeholder } from "@cloudinary/react";
 
 function Header() {
   const cld = new Cloudinary({
@@ -35,7 +30,6 @@ function Header() {
               className="mx-auto h-9"
               cldImg={myImage}
               plugins={[
-                lazyload(),
                 responsive({ steps: 200 }),
                 placeholder({ mode: "blur" }),
               ]}

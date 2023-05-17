@@ -11,19 +11,19 @@ const Features = () => {
       primaryText: "Productive co-working in the day",
       bodyText:
         "In the day, Dungeon House is a comfortable and productive environment with both public desks and private rooms for remote workers.",
-      image: "dungeon-house/feature1",
+      image: "dungeon-house/feature-1",
     },
     {
       primaryText: "Playful tabletop gaming in the night",
       bodyText:
         "In the night, Dungeon House becomes an epic gaming environment with daily events supporting Magic the Gathering, Dungeons and Dragons, Warhammer, and more.",
-      image: "dungeon-house/feature1",
+      image: "dungeon-house/feature-2",
     },
     {
       primaryText: "Private community of geeks",
       bodyText:
         "We ensure that Dungeon House is a safe space for geeks to be geeks, but we also filter members to ensure that every individual is fun to be around - no salt here.",
-      image: "dungeon-house/feature1",
+      image: "dungeon-house/feature-3",
     },
   ];
 

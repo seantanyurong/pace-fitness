@@ -1,12 +1,7 @@
 import React from "react";
 import BlueLink from "./BlueLink";
 import { Cloudinary } from "@cloudinary/url-gen";
-import {
-  AdvancedImage,
-  lazyload,
-  responsive,
-  placeholder,
-} from "@cloudinary/react";
+import { AdvancedImage, responsive, placeholder } from "@cloudinary/react";
 
 const Feature = (props) => {
   const cld = new Cloudinary({
@@ -28,11 +23,7 @@ const Feature = (props) => {
         <AdvancedImage
           className="mx-auto drop-shadow-xl rounded-lg group-hover:-translate-y-1 duration-150 border-highlight-darkEggshell border-3 group-hover:border-solid  group-hover:border-highlight-blue"
           cldImg={myImage}
-          plugins={[
-            lazyload(),
-            responsive({ steps: 200 }),
-            placeholder({ mode: "blur" }),
-          ]}
+          plugins={[responsive({ steps: 200 }), placeholder({ mode: "blur" })]}
         />
         <BlueLink
           size="medium"

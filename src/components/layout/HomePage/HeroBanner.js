@@ -2,12 +2,7 @@ import Button from "../../ui/Button";
 import BlueLink from "../../ui/BlueLink";
 import SectionWrapper from "../../ui/SectionWrapper";
 import { Cloudinary } from "@cloudinary/url-gen";
-import {
-  AdvancedImage,
-  lazyload,
-  responsive,
-  placeholder,
-} from "@cloudinary/react";
+import { AdvancedImage, responsive, placeholder } from "@cloudinary/react";
 
 function HeroBanner() {
   // Create a Cloudinary instance and set your cloud name.
@@ -62,11 +57,7 @@ function HeroBanner() {
       <AdvancedImage
         className="mx-auto drop-shadow-3xl mb-10 rounded-lg"
         cldImg={myImage}
-        plugins={[
-          lazyload(),
-          responsive({ steps: 200 }),
-          placeholder({ mode: "blur" }),
-        ]}
+        plugins={[responsive({ steps: 200 }), placeholder({ mode: "blur" })]}
       />
 
       {/* Link */}
