@@ -3,8 +3,23 @@ import LogoImg from "../../../assets/General/Logo.png";
 import Button from "../../ui/Button";
 import BlueLink from "../../ui/BlueLink";
 import SectionWrapper from "../../ui/SectionWrapper";
+import { Cloudinary } from "@cloudinary/url-gen";
+import {
+  AdvancedImage,
+  lazyload,
+  responsive,
+  placeholder,
+} from "@cloudinary/react";
 
 function Header() {
+  const cld = new Cloudinary({
+    cloud: {
+      cloudName: "dfhxocdgi",
+    },
+  });
+
+  const myImage = cld.image("dungeon-house/logo");
+
   return (
     <SectionWrapper
       topMargin={false}
@@ -15,7 +30,16 @@ function Header() {
         <div className="shrink-0 mr-4 ">
           {/* Logo */}
           <Link to="/" className="flex items-center relative">
-            <img className="mx-auto h-9" src={LogoImg} alt="Logo" />
+            {/* <img className="mx-auto h-9" src={LogoImg} alt="Logo" /> */}
+            <AdvancedImage
+              className="mx-auto h-9"
+              cldImg={myImage}
+              plugins={[
+                lazyload(),
+                responsive({ steps: 200 }),
+                placeholder({ mode: "blur" }),
+              ]}
+            />
             <div className="whitespace-nowrap -rotate-2 absolute bg-gradient-to-r from-highlight-orange to-highlight-sunlight py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center -left-[50%] mx-auto sm:-left-[20px] -bottom-[45px]">
               {[...Array(5)].map((x, i) => (
                 <svg

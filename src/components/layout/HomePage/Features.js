@@ -1,9 +1,9 @@
 import React from "react";
 import SectionWrapper from "../../ui/SectionWrapper";
 import Feature from "../../ui/Feature";
-import Feature1Img from "../../../assets/HomePage/Feature1.webp";
-import Feature2Img from "../../../assets/HomePage/Feature2.webp";
-import Feature3Img from "../../../assets/HomePage/Feature3.webp";
+// import Feature1Img from "../../../assets/HomePage/Feature1.webp";
+// import Feature2Img from "../../../assets/HomePage/Feature2.webp";
+// import Feature3Img from "../../../assets/HomePage/Feature3.webp";
 
 const Features = () => {
   const FeatureContent = [
@@ -11,19 +11,19 @@ const Features = () => {
       primaryText: "Productive co-working in the day",
       bodyText:
         "In the day, Dungeon House is a comfortable and productive environment with both public desks and private rooms for remote workers.",
-      image: Feature1Img,
+      image: "dungeon-house/feature1",
     },
     {
       primaryText: "Playful tabletop gaming in the night",
       bodyText:
         "In the night, Dungeon House becomes an epic gaming environment with daily events supporting Magic the Gathering, Dungeons and Dragons, Warhammer, and more.",
-      image: Feature2Img,
+      image: "dungeon-house/feature1",
     },
     {
       primaryText: "Private community of geeks",
       bodyText:
         "We ensure that Dungeon House is a safe space for geeks to be geeks, but we also filter members to ensure that every individual is fun to be around - no salt here.",
-      image: Feature3Img,
+      image: "dungeon-house/feature1",
     },
   ];
 
