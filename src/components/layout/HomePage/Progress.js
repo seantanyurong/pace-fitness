@@ -98,6 +98,7 @@ const Progress = () => {
         addClassName="mt-10"
         content="$10,000 / $50,000"
       />
+
       <div className="mt-14 grid grid-cols-8 gap-y-16 w-full">
         <div className="col-span-8 lg:col-span-3 self-center">
           <SplitContainer
