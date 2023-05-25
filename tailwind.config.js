@@ -85,6 +85,7 @@ module.exports = {
       fontFamily: {
         // sans: ["Source Sans Pro", "sans-serif"],
         sans: ["Graphik", "sans-serif"],
+        // sans: ["Montserrat", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
       fontSize: {
