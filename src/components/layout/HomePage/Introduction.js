@@ -6,20 +6,16 @@ import SectionWrapper from "../../ui/SectionWrapper";
 function Introduction() {
   const submenuLinks = [
     {
-      primaryText: "Our current progress.",
-      link: "#progress",
-    },
-    {
-      primaryText: "Browse the features gallery.",
-      link: "#features",
-    },
-    {
-      primaryText: "Magic playgroup finder.",
+      primaryText: "Fitness.",
       link: "#",
     },
     {
-      primaryText: "Drop me an email.",
-      link: "mailto:seantanyurong@gmail.com",
+      primaryText: "Mind Matters.",
+      link: "#",
+    },
+    {
+      primaryText: "Outings.",
+      link: "#",
     },
   ];
 
@@ -47,42 +43,31 @@ function Introduction() {
         {/* Left column - introduction */}
         <div className="col-span-7 lg:col-span-5">
           <h2 className="mb-3">
-            Co-working in the day, tabletop gaming in the night.
+            Elevating women’s fitness with mindful support and community.
           </h2>
           <p className="mb-3 text-lg">
-            <i>Written by ChatGPT</i> - Hey, my name is Sean, and this is my
-            retirement dream. As a 23-year-old student and full stack developer
-            from Singapore, I've always pondered whether there's more to life
-            than the mundane 9-5 grind that often leads to a dull retirement. I
-            refuse to believe that our existence should be reduced to being old
-            folks sleeping on a pile of money.
+            We are on a mission to create something truly special – a women's
+            fitness community that goes beyond workouts and embraces the power
+            of sisterhood.
           </p>
           <p className="mb-3 text-lg">
-            That's where Dungeon House comes in — an exploration of the
-            possibilities that lie beyond conventional work and hobbies. I'm on
-            a quest to discover if we can find greater meaning, purpose, and
-            happiness throughout our lives by blending our passions with our
-            work.{" "}
-            <b>
-              Dungeon House is a unique experiment, combining a vibrant hobby
-              community with a modern co-working space.
-            </b>
+            Too often, we encountered judgment, unrealistic standards, and a
+            sense of inadequacy that left us feeling discouraged and
+            disconnected in our fitness journeys.
           </p>
           <p className="mb-3 text-lg">
-            As I embark on this exciting journey, I'll be sharing every step
-            along the way. My goal is not only to bring Dungeon House to life
-            but also to inspire others to create their own incredible
-            hobby-centric co-working spaces worldwide.
+            Starting Pace Fitness has been a labour of love, born out of a
+            desire to provide a space where women can thrive, support each
+            other, and prioritise their mental health alongside their physical
+            well-being. In this community, we uplift and inspire one another,
+            celebrating our unique strengths and journeys so that each
+            individual can grow at her own pace.
           </p>
 
           <p className="mb-3 text-lg">
-            If you feel a stirring in your soul and a desire to be part of this
-            transformative adventure, I wholeheartedly invite you to join me.
-            <b>
-              Together, let's create a concrete sanctuary where geeks, remote
-              workers, and passionate individuals can thrive, enjoying a
-              fulfilling life that seamlessly combines work and play.
-            </b>
+            Pace Fitness is not just about fitness; it's about fostering a sense
+            of belonging, empowerment, and growth. Together, we are redefining
+            what it means to be a strong and united community of women.
           </p>
         </div>
 
@@ -91,7 +76,7 @@ function Introduction() {
           <YellowContainer
             content={
               <div>
-                <h4 className="mb-2">Things to check out</h4>
+                <h4 className="mb-2">Our Events</h4>
                 {submenuLinkContent()}
               </div>
             }

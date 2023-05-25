@@ -13,12 +13,12 @@ function Header() {
     },
   });
 
-  const myImage = cld.image("dungeon-house/logo");
+  const myImage = cld.image("pace-fitness/logo");
 
   return (
     <SectionWrapper
       topMargin={false}
-      sectionClassName="md:bg-opacity-90 transition duration-300 ease-in-out pt-8 pb-12 bg-highlight-eggshell"
+      sectionClassName="md:bg-opacity-90 transition duration-300 ease-in-out pt-8 pb-8 sm:pb-20 bg-highlight-eggshell"
     >
       <div className="z-99 flex-col sm:flex-row flex items-center justify-between md:h-20 relative">
         {/* Site branding */}
@@ -26,7 +26,7 @@ function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center relative">
             <AdvancedImage
-              className="mx-auto h-9"
+              className="mx-auto h-20"
               cldImg={myImage}
               plugins={[
                 responsive({ steps: 200 }),
@@ -34,7 +34,7 @@ function Header() {
               ]}
               alt="logo"
             />
-            <div className="whitespace-nowrap -rotate-2 absolute bg-gradient-to-r from-highlight-orange to-highlight-sunlight py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center -left-[50%] mx-auto sm:-left-[20px] -bottom-[45px]">
+            <div className="whitespace-nowrap -rotate-2 absolute bg-gradient-to-r from-highlight-orange to-highlight-sunlight py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center mx-auto -left-[125px] sm:-left-[20px] -bottom-[45px]">
               {[...Array(5)].map((x, i) => (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ function Header() {
                   />
                 </svg>
               ))}
-              <span className="ml-1"> "NO.1 GEEK COMMUNITY"</span>
+              <span className="ml-1"> "NO.1 FITNESS COMMUNITY"</span>
             </div>
           </Link>
         </div>
@@ -62,15 +62,15 @@ function Header() {
               <BlueLink
                 addClassName="px-3"
                 link="#features"
-                primaryText="Browse the features"
+                primaryText="Check out what we do!"
                 size="small"
               />
             </li>
             <li>
               <Button
                 size="small"
-                primaryText="Join our Discord"
-                link="https://discord.gg/8UDaJrfJBs"
+                primaryText="Join our Telegram"
+                link="https://t.me/pacefitness"
               />
             </li>
           </ul>

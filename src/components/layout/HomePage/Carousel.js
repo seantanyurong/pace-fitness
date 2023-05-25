@@ -15,25 +15,29 @@ const cld = new Cloudinary({
   },
 });
 
-const myImage = cld.image("dungeon-house/heroBanner");
+const myImage = cld.image("pace-fitness/heroBanner");
 
 const Carousel = () => {
   return (
     <section className="mt-16">
       {" "}
       <Swiper
-        spaceBetween={20}
-        slidesPerView={4}
+        spaceBetween={10}
+        slidesPerView={2}
         centeredSlides={true}
         freeMode={true}
         loop={true}
+        breakpoints={{
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        }}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
         modules={[FreeMode, Autoplay, Pagination, Navigation]}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
           <AdvancedImage
@@ -99,7 +103,11 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <AdvancedImage cldImg={myImage} alt="heroBanner" />
+          <AdvancedImage
+            className="rounded-lg"
+            cldImg={myImage}
+            alt="heroBanner"
+          />
         </SwiperSlide>
       </Swiper>
     </section>

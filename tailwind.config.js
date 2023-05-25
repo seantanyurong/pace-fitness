@@ -4,20 +4,20 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          main: "#2da530",
-          hover: "#19911c",
+          main: "#7d5d53",
+          hover: "#49352E",
         },
         link: { main: "#1e64e6", hover: "#1d2d35" },
         text: { main: "#1d2d35", hover: "#1d2d35" },
         highlight: {
-          eggshell: "#fcf4f2",
+          eggshell: "#FFF5F7",
           darkEggshell: "#f2eae8",
           darkerEggshell: "#FEF7F0",
           darkestEggshell: "#F4EDE6",
-          lightYellow: "#ffffe1",
+          lightYellow: "#FFF5F7",
           yellow: "#FFE42D",
-          sunlight: "#ffcd05",
-          orange: "#ff7d0f",
+          sunlight: "#ffc7c7",
+          orange: "#fe9d9d",
           pink: "#ff5c7a",
           blue: "#1E64E6",
         },
@@ -85,6 +85,7 @@ module.exports = {
       fontFamily: {
         // sans: ["Source Sans Pro", "sans-serif"],
         sans: ["Graphik", "sans-serif"],
+        // sans: ["Montserrat", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
       fontSize: {

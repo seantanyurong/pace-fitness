@@ -4,7 +4,7 @@ const BlueLink = (props) => {
   const renderSwitch = (param) => {
     switch (param) {
       case "small":
-        return "";
+        return "text-sm sm:text-base";
 
       case "medium":
         return "text-xl";
