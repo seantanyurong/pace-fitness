@@ -17,7 +17,7 @@ function HeroBanner() {
     },
   });
 
-  const myImage = cld.image("dungeon-house/heroBanner");
+  const myImage = cld.image("pace-fitness/heroBanner");
 
   return (
     <SectionWrapper
@@ -32,21 +32,23 @@ function HeroBanner() {
           {/* Section header */}
           <div className="pb-12 md:pb-16">
             <h1 className="mb-4">
-              A private <br className="sm:hidden"></br>co-working space for
-              remote geeks.
+              Unleashing the power of community in women’s fitness
             </h1>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl mb-8">
-                Dungeon House is a home for remote working geeks to come
-                together to work and play Magic the Gathering, Warhammer,
-                Dungeons and Dragons, and more.
+                We believe that fitness extends beyond physical strength; it
+                encompasses mental wellness and a strong support system. At Pace
+                Fitness, we provide a safe and inclusive space where women can
+                connect, find inspiration, and receive the mental health support
+                they need. Together, we'll redefine what it means to be fit,
+                strong, and confident.
               </p>
               <Button
                 size="large"
-                primaryText="Join our Discord"
-                secondaryText="Get a peek behind the scenes of this project."
+                primaryText="Join our Telegram"
+                secondaryText="Embark on a transformative fitness journey with the support of our empowering community!"
                 addClassName="justify-center mx-auto"
-                link="https://discord.gg/8UDaJrfJBs"
+                link="https://t.me/pacefitness"
               />
             </div>
           </div>
@@ -68,7 +70,7 @@ function HeroBanner() {
       {/* Link */}
       <BlueLink
         link="#features"
-        primaryText="See everything we have to offer and more"
+        primaryText="Find out more about what we do!"
         size="large"
       />
     </SectionWrapper>

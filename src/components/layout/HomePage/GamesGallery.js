@@ -1,93 +1,53 @@
 function GamesGallery() {
   const featureList = [
     {
-      text: "for tabletop gamers",
-      highlightedText: "Regular events and tournaments",
-      textFirst: false,
-    },
-    {
-      text: "",
-      highlightedText: "Magic the Gathering",
+      text: "Thank you for making such a ",
+      highlightedText: "wholesome community",
       textFirst: true,
     },
     {
       text: "",
-      highlightedText: "High speed internet",
+      highlightedText: "A safe space 💕",
+      textFirst: false,
+    },
+    {
+      text: "Wow, ",
+      highlightedText: "this group is so great",
       textFirst: true,
     },
     {
-      text: "for individuals or teams",
-      highlightedText: "Private rooms",
-      textFirst: false,
-    },
-    {
-      text: "for remote workers",
-      highlightedText: "Comfortable and productive workspaces",
-      textFirst: false,
-    },
-    {
-      text: "gaming tables",
-      highlightedText: "Warhammer",
-      textFirst: false,
-    },
-    {
-      text: "",
-      highlightedText: "Dungeons and Dragons",
-      textFirst: false,
-    },
-    {
-      text: "",
-      highlightedText: "Private and exclusive community",
-      textFirst: false,
-    },
-    {
-      text: "",
-      highlightedText: "Lounge area for socialising",
-      textFirst: false,
-    },
-    {
-      text: "Opportunities for",
-      highlightedText: "networking and collaboration",
+      text: "Thank you for ",
+      highlightedText: "spreading love and positivity to all of us <33",
       textFirst: true,
     },
     {
-      text: "Inhouse",
-      highlightedText: "Dungeon Master",
-      textFirst: true,
-    },
-    {
-      text: "",
-      highlightedText: "Private restaurant and chef",
+      text: " whether we’re active or inactive!!💓",
+      highlightedText: "You’ve touched all of us,",
       textFirst: false,
     },
     {
-      text: "",
-      highlightedText: "Collection of board games, playmats and dice",
+      text: "I used to only use the treadmill",
+      highlightedText: "",
       textFirst: true,
     },
     {
-      text: "",
-      highlightedText: "Miniature painting setup",
+      text: "Learn a lot of different exercises",
+      highlightedText: "",
       textFirst: true,
     },
     {
-      text: "",
-      highlightedText: "Monitors for designers and coders",
+      text: "Blessed to ",
+      highlightedText: "be part of this community",
       textFirst: true,
     },
     {
-      text: "for your cards and miniatures",
-      highlightedText: "Inhouse storage",
-      textFirst: false,
+      text: "If you're woman, ",
+      highlightedText: "you need to be a part of this",
+      textFirst: true,
     },
     {
-      text: "for comfort",
-      highlightedText: "Herman Miller chairs",
-      textFirst: false,
-    },
-    {
-      text: "for easy access",
-      highlightedText: "Convenient location",
+      text: " group of people",
+      highlightedText: "Really encouraging",
       textFirst: false,
     },
   ];

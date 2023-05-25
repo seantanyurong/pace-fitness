@@ -2,8 +2,9 @@ import HeroBanner from "../components/layout/HomePage/HeroBanner";
 import Introduction from "../components/layout/HomePage/Introduction";
 import Features from "../components/layout/HomePage/Features";
 import GamesGallery from "../components/layout/HomePage/GamesGallery";
-import Progress from "../components/layout/HomePage/Progress";
 import CTA from "../components/layout/HomePage/CTA";
+import Carousel from "../components/layout/HomePage/Carousel";
+import Team from "../components/layout/HomePage/Team";
 
 const HomePage = () => {
   return (
@@ -12,7 +13,8 @@ const HomePage = () => {
       <Introduction />
       <Features />
       <GamesGallery />
-      <Progress />
+      <Carousel />
+      <Team />
       <CTA />
     </div>
   );

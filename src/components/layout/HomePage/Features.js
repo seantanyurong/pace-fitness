@@ -8,31 +8,31 @@ import Feature from "../../ui/Feature";
 const Features = () => {
   const FeatureContent = [
     {
-      primaryText: "Productive co-working in the day",
+      primaryText: "Fitness",
       bodyText:
-        "In the day, Dungeon House is a comfortable and productive environment with both public desks and private rooms for remote workers.",
-      image: "dungeon-house/feature-1",
+        "Be empowered and energised! Whether you’re a fitness enthusiast or just starting your journey, we welcome you!.",
+      image: "pace-fitness/feature-1",
       link: "#",
     },
     {
-      primaryText: "Playful tabletop gaming in the night",
+      primaryText: "Mind Matters",
       bodyText:
-        "In the night, Dungeon House becomes an epic gaming environment with daily events supporting Magic the Gathering, Dungeons and Dragons, Warhammer, and more.",
-      image: "dungeon-house/feature-2",
+        "Prioritise your mental wellness and nurture a positive mindset. We provide a safe space and supportive environment for growth and self-discovery.",
+      image: "pace-fitness/feature-2",
       link: "#",
     },
     {
-      primaryText: "Private community of geeks",
+      primaryText: "Community Connection",
       bodyText:
-        "We ensure that Dungeon House is a safe space for geeks to be geeks, but we also filter members to ensure that every individual is fun to be around - no salt here.",
-      image: "dungeon-house/feature-3",
+        "Grab your friends and your joyful spirit for our community outings! Experience the joy of building connections within our vibrant community of women..",
+      image: "pace-fitness/feature-3",
       link: "#",
     },
   ];
 
   return (
     <SectionWrapper topMargin={true} id="features">
-      <h2>A community that combines work and play.</h2>
+      <h2>Our Events.</h2>
       <div className="mt-8 grid grid-cols-9 gap-y-16 sm:gap-16 w-full">
         {FeatureContent.map((feature, index) => {
           return (

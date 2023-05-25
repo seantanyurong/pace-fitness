@@ -8,20 +8,18 @@ const CTA = () => {
     <SectionWrapper topMargin={true} divClassName="text-center">
       <EggContainer>
         <h4 className="text-3xl font-black md:text-5xl mb-4">
-          Want to be part of the <u>journey</u>?
+          Join us and find your <u>pace</u>!
         </h4>
         <p className="text-xl md:text-2xl mb-8">
-          Join our Discord chat, and be among the first to hear about updates
-          and new developments as we work towards making Dungeon House a
-          reality. Sign up for early access today and be a part of shaping the
-          future of co-working and tabletop gaming!
+          Be part of our Telegram group for updates on our upcoming events and
+          interact with our community!
         </p>
         <Button
           size="large"
-          primaryText="Join our Discord"
-          secondaryText="Get a peek behind the scenes."
+          primaryText="Join our Telegram"
+          secondaryText="Embark on a transformative fitness journey with the support of our empowering community!"
           addClassName="justify-center mx-auto"
-          link="https://discord.gg/8UDaJrfJBs"
+          link="https://t.me/pacefitness"
         />
       </EggContainer>
     </SectionWrapper>

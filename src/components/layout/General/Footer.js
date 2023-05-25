@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../../ui/SectionWrapper";
-import LogoImg from "../../../assets/General/Logo.png";
+import LogoImg from "../../../assets/General/Logo.webp";
 
 function Footer() {
   return (
@@ -14,17 +14,16 @@ function Footer() {
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" className="inline-block " aria-label="Cruip">
-                {" "}
-                <img className="mx-auto h-7" src={LogoImg} alt="Logo" />
+                <img className="mx-auto h-20" src={LogoImg} alt="Logo" />
               </Link>
             </div>
             <div className="text-sm text-text-main">
               <h5 to="#" className="text-text-main text-lg font-bold mb-2">
-                A co-working space for geeks.
+                A community for women's fitness.
               </h5>
               <p to="#" className="text-text-main">
-                It's time to blend work and play. Be part of a private community
-                of tabletop gamers today.
+                Building strong bodies, strong minds, and strong community
+                support.
               </p>
             </div>
           </div>
@@ -270,7 +269,7 @@ function Footer() {
 
           {/* Copyrights note */}
           <div className="text-sm text-text-main mr-4">
-            &copy; DungeonHouse.com. All rights reserved.
+            &copy; PaceFitnessCommunity.com. All rights reserved.
           </div>
         </div>
       </SectionWrapper>
