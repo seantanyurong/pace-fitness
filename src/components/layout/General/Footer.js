@@ -1,9 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../../ui/SectionWrapper";
-import LogoImg from "../../../assets/General/Logo.webp";
+import { Cloudinary } from "@cloudinary/url-gen";
+import { AdvancedImage, responsive, placeholder } from "@cloudinary/react";
 
 function Footer() {
+  const cld = new Cloudinary({
+    cloud: {
+      cloudName: "dfhxocdgi",
+    },
+  });
+
+  const myImage = cld.image("pace-fitness/logo");
+
   return (
     <footer>
       <SectionWrapper topMargin={true}>
@@ -14,7 +23,15 @@ function Footer() {
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" className="inline-block " aria-label="Cruip">
-                <img className="mx-auto h-20" src={LogoImg} alt="Logo" />
+                <AdvancedImage
+                  className="mx-auto h-20"
+                  cldImg={myImage}
+                  plugins={[
+                    responsive({ steps: 200 }),
+                    placeholder({ mode: "blur" }),
+                  ]}
+                  alt="logo"
+                />
               </Link>
             </div>
             <div className="text-sm text-text-main">
