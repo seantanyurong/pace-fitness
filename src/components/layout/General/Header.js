@@ -4,7 +4,7 @@ import Button from "../../ui/Button";
 import BlueLink from "../../ui/BlueLink";
 import SectionWrapper from "../../ui/SectionWrapper";
 import { Cloudinary } from "@cloudinary/url-gen";
-import { AdvancedImage, responsive, placeholder } from "@cloudinary/react";
+import { AdvancedImage, responsive } from "@cloudinary/react";
 
 function Header() {
   const cld = new Cloudinary({
@@ -28,10 +28,7 @@ function Header() {
             <AdvancedImage
               className="mx-auto h-20"
               cldImg={myImage}
-              plugins={[
-                responsive({ steps: 200 }),
-                placeholder({ mode: "blur" }),
-              ]}
+              plugins={[responsive({ steps: 200 })]}
               alt="logo"
             />
             <div className="whitespace-nowrap -rotate-2 absolute bg-gradient-to-r from-highlight-orange to-highlight-sunlight py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center mx-auto -left-[125px] sm:-left-[20px] -bottom-[45px]">

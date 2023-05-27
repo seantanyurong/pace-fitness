@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../../ui/SectionWrapper";
 import { Cloudinary } from "@cloudinary/url-gen";
-import { AdvancedImage, responsive, placeholder } from "@cloudinary/react";
+import { AdvancedImage, responsive } from "@cloudinary/react";
 
 function Footer() {
   const cld = new Cloudinary({
@@ -26,10 +26,7 @@ function Footer() {
                 <AdvancedImage
                   className="mx-auto h-20"
                   cldImg={myImage}
-                  plugins={[
-                    responsive({ steps: 200 }),
-                    placeholder({ mode: "blur" }),
-                  ]}
+                  plugins={[responsive({ steps: 200 })]}
                   alt="logo"
                 />
               </Link>
